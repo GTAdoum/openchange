@@ -371,7 +371,7 @@ class AutodiscoverController(BaseController):
     """The constroller class for Autodiscover requests."""
 
     @restrict('POST', 'GET')
-    def autodiscover(self, **kwargs):
+    def Autodiscover(self, **kwargs):
         #TODO: authentication
         try:
             if "environ" in kwargs:
